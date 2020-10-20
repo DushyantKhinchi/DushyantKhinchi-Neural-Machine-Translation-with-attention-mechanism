@@ -117,12 +117,12 @@ In order to perform the translation, we need to write a function much like what 
 
 Key Outcomes
 
-• Built a machine learning pipeline to translate sentences from French to English.
-• Parallel corpus structure of 175623 examples was used to train the model.
-• Built a Seq2Seq model with many-to-many architecture.
-• An encoder layer was implemented as a combination of an embedding and an RNN layer (GRU in this case) to output hidden states for the computation of attention weights and the context vector.
-• A decoder layer was implemented as a combination of the attention layer and the fully connected layer.
-• Implemented a helper function to store training weights as checkpoints.
-• Bilingual evaluation understudy (Bleu) score was used as an evaluation metric.
+* Built a machine learning pipeline to translate sentences from French to English.
+* Parallel corpus structure of 175623 examples was used to train the model.
+* Built a Seq2Seq model with many-to-many architecture.
+* An encoder layer was implemented as a combination of an embedding and an RNN layer (GRU in this case) to output hidden states for the computation of attention weights and the context vector.
+* A decoder layer was implemented as a combination of the attention layer and the fully connected layer.
+* Implemented a helper function to store training weights as checkpoints.
+* Bilingual evaluation understudy (Bleu) score was used as an evaluation metric.
 
-• Average Bleu score for a test document with 5000 sentences was computed to be 0.263
+* Average Bleu score for a test document with 5000 sentences was computed to be 0.263
